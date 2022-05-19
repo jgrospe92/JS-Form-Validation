@@ -53,7 +53,7 @@ function showAlertMessage(cssClass) {
     let container = document.getElementById("alertMessage");
     let content = `<div class="alert ${cssClass} alert-dismissible fade show pb-0" role="alert">`;
     content += '<p class="mb-0">Error! Sorry, your form is not valid.</p>';
-    content += `<p class="mb-0">${errorsNotif.length} ${errorStr} prevented registration form from being submitted. Please correct any errors below and try agin!</p>`;
+    content += `<p class="mb-0">${errorsNotif.length} ${errorStr} prevented registration form from being submitted. Please correct any errors below and try again!</p>`;
     content += `<ul>`;
     for (let str of errorsNotif.values()){
         errorMsg = str;
