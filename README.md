@@ -33,3 +33,6 @@ of the Postal Code.
 13. Province: not empty, only letters.
     
 # Live Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f2ac5f7c-d572-4af8-87cd-a5486215f66d/deploy-status)](https://app.netlify.com/sites/student-form-validation/deploys)
+
+[JS-Form-Validation](https://student-form-validation.netlify.app)
